@@ -19,10 +19,7 @@ driver.get('https://www.humanbenchmark.com/tests/memory')
 driver.maximize_window()
 
 # time to sign-in
-for i in range(1, 12):
-    print(i)
-    time.sleep(1)
-
+input("ready? ")
 
 mouse = Controller()
 image = None
