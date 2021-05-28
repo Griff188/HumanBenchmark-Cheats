@@ -1,2 +1,2 @@
 # HumanBenchmark-Cheats
-various scripts to play HumanBenchmark.com games
+various scripts to play https://HumanBenchmark.com games
