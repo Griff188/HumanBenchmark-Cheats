@@ -20,9 +20,7 @@ try:
     driver.maximize_window()
 
     # time to sign-in
-    for i in range(1, 12):
-        print(i)
-        time.sleep(1)
+    input("ready? ")
 
     # take screenshot & get size of element
     element = driver.find_element_by_xpath('//*[@id="root"]/div/div[4]/div[1]/div/div[2]/div')
