@@ -56,7 +56,7 @@ try:
     finishedText = [item + " " for item in finishedText]
 
     # string processing for most common OCR errors
-    finishedText = [w.replace('|', 'I').replace('ff', 'ff').replace('ee', 'ee') for w in finishedText]
+    finishedText = [w.replace('|', 'I') for w in finishedText]
 
     print(finishedText)
 
