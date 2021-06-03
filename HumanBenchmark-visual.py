@@ -24,7 +24,9 @@ driver.maximize_window()
 # time to sign-in
 input("ready? ")
 
+# setup mouse as controller
 mouse = Controller()
+
 image = None
 
 # identify start button
@@ -54,7 +56,7 @@ for level in range(0, limit):
     for xSize in range(0, 400, 20):
         for ySize in range(0, 400, 20):
 
-            # if white, click
+            # if white, add pixels to get to same location on main page, and click
             if image.getpixel((xSize, ySize)) == (255, 255, 255):
                 mouse.position = (xSize + 750, ySize + 259)
             mouse.click(Button.left, 1)
